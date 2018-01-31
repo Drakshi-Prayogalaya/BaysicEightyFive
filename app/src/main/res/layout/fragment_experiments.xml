@@ -1,0 +1,336 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.grape.basic8086.activity.FriendsFragment">
+    
+   <!-- <TextView
+        android:layout_below="@id/label"
+        android:layout_centerInParent="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="Edit fragment_friends.xml to change the appearance"/>-->
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button android:text="1. Store the data byte 32H into memory location 4000H."                                                                         android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                  
+                 
+                 />
+
+
+            <Button android:text="2. Exchange the contents of memory locations 2000H and 4000H"                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                 
+                android:layout_height="wrap_content"   
+                 
+                  />
+
+            <Button android:text="3. Sample arithmetic problem"                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                   
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="4. Subtract the contents of memory location 4001H from the memory"                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                   
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="5. Addition of numbers"                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button5"  
+                android:layout_width="match_parent"  
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="6. Add and store the values"                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button6"  
+                android:layout_width="match_parent"  
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="7. Subtraction of numbers"                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button7"  
+                android:layout_width="match_parent"  
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="8. Find the 1's complement of the number"                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button8"  
+                android:layout_width="match_parent"  
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="9. Find the 2's complement of the number"                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button9"  
+                android:layout_width="match_parent"  
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="10. Pack the two unpacked BCD numbers"                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button10"  
+                android:layout_width="match_parent"  
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="11. Unpack the BCD number and store the digits"                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button11"  
+                android:layout_width="match_parent"  
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="12. Unpack the two digit BCD number and store the result"                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button12"  
+                android:layout_width="match_parent"  
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="13. A program to shift an eight bit data four bits right"                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button13"  
+                android:layout_width="match_parent"  
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="14. Program to shift a 16-bit data 1 bit left."                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button14"  
+                android:layout_width="match_parent"  
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="15. Write a set of instructions to alter the contents of flag register in 8085."                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button15"  
+                android:layout_width="match_parent"  
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="16. Calculate the sum of series of numbers."                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button16"  
+                android:layout_width="match_parent"  
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="17. Multiply two 8-bit numbers"                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button17"  
+                android:layout_width="match_parent"  
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="18. Divide 16 bit number by an 8 bit number"                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button18"  
+                android:layout_width="match_parent"  
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="19. Find the number of negative elements in a block of data"                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button19"  
+                android:layout_width="match_parent"  
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="20. Find the largest number in a block of data."                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button20"  
+                android:layout_width="match_parent"  
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="21.Write a program to count number of l's in a register"                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button21"  
+                android:layout_width="match_parent"  
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="22. Write a program to sort given numbers"                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button22"  
+                android:layout_width="match_parent"  
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="23. Calculate the sum of series of even numbers"                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button23"  
+                android:layout_width="match_parent"  
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="24. Calculate the sum of series of odd numbers"                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button24"  
+                android:layout_width="match_parent"  
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="25. Find the square of the given numbers"                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button25"  
+                android:layout_width="match_parent"  
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="26. Search the given byte in the list of given numbers"                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button26"  
+                android:layout_width="match_parent"  
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="27. BCD addition"                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button27"  
+                android:layout_width="match_parent"  
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="28. Array Addition"                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button28"  
+                android:layout_width="match_parent"  
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="29. Program to separate even numbers"                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button29"  
+                android:layout_width="match_parent"  
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="30. Shifting of data from one location to another"                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button30"  
+                android:layout_width="match_parent"  
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="31. Add even parity to a string of 7-bit ASCII characters."                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button31"  
+                android:layout_width="match_parent"  
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="32. To find the number of negative, zero and positive numbers from given list of numbers"                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button32"  
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"   
+                />
+
+            <Button android:text="33. Insert characters to a string"                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button33"  
+                android:layout_width="match_parent"
+                 
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="34. Delete characters from a string"                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button34"  
+                android:layout_width="match_parent"
+                 
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="35. Multiplication of two unsigned numbers"                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button35"  
+                android:layout_width="match_parent"
+                 
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="36. Division of two unsigned numbers"                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                  
+                 
+                 />
+
+
+            <Button android:text="37. Program which will perform the same task as DAA"                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button37"
+                android:layout_width="match_parent"
+                 
+                android:layout_height="wrap_content"   
+                 
+                  />
+
+            <Button android:text="38. Testing the RAM"                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button38"
+                android:layout_width="match_parent"
+                   
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="39. Generating Fibonacci numbers"                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button39"
+                android:layout_width="match_parent"
+                   
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="40. Program to generate a delay of 0.4 sec if the crystal frequency is 5 MHz"                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button40"  
+                android:layout_width="match_parent"  
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="41. Sort an array in descending order."                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button41"  
+                android:layout_width="match_parent"  
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="42. Transfer data from one memory to another memory block."                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button42"  
+                android:layout_width="match_parent"  
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="43. Program to calculate the factorial of a number between 0 to 8"                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button43"  
+                android:layout_width="match_parent"  
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="44. Program to find the Square Root of an 8 bit binary number."                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button44"  
+                android:layout_width="match_parent"  
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="45. Program to split a HEX data into two nibbles and store it in memory"                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button45"  
+                android:layout_width="match_parent"  
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="46. Add two 4 digit BCD numbers in HL and DE register pairs"                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button46"  
+                android:layout_width="match_parent"  
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="47. Subtract the BCD number stored in E register from the number stored in the D register"                                                                            android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button47"  
+                android:layout_width="match_parent"  
+                android:layout_height="wrap_content"   
+                  />
+
+            <Button android:text="48. Program to multiply 2 BCD numbers."                                                                         android:background="#FFFFFF"                 android:textColor="#9C27B0"
+                android:id="@+id/button48"  
+                android:layout_width="match_parent"  
+                android:layout_height="wrap_content"   
+                  />
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
